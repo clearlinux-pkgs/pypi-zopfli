@@ -14,12 +14,12 @@ Requires: pypi-zopfli-license = %{version}-%{release}
 Requires: pypi-zopfli-python = %{version}-%{release}
 Requires: pypi-zopfli-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 Zopfli Compression Algorithm is a compression library programmed in C to perform
