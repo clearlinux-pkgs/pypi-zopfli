@@ -4,7 +4,7 @@
 #
 Name     : pypi-zopfli
 Version  : 0.2.2
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/9a/ed/d004d5737f9546167eecf0ecd995ee1a796703e512deb2f2ea26cdbe4b3e/zopfli-0.2.2.zip
 Source0  : https://files.pythonhosted.org/packages/9a/ed/d004d5737f9546167eecf0ecd995ee1a796703e512deb2f2ea26cdbe4b3e/zopfli-0.2.2.zip
 Summary  : Zopfli module for python
