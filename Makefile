@@ -1,5 +1,5 @@
 PKG_NAME := pypi-zopfli
-URL = https://files.pythonhosted.org/packages/9a/ed/d004d5737f9546167eecf0ecd995ee1a796703e512deb2f2ea26cdbe4b3e/zopfli-0.2.2.zip
+URL = https://files.pythonhosted.org/packages/92/d8/71230eb25ede499401a9a39ddf66fab4e4dab149bf75ed2ecea51a662d9e/zopfli-0.2.3.zip
 ARCHIVES = 
 
 include ../common/Makefile.common

@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-zopfli
-Version  : 0.2.2
-Release  : 15
-URL      : https://files.pythonhosted.org/packages/9a/ed/d004d5737f9546167eecf0ecd995ee1a796703e512deb2f2ea26cdbe4b3e/zopfli-0.2.2.zip
-Source0  : https://files.pythonhosted.org/packages/9a/ed/d004d5737f9546167eecf0ecd995ee1a796703e512deb2f2ea26cdbe4b3e/zopfli-0.2.2.zip
+Version  : 0.2.3
+Release  : 16
+URL      : https://files.pythonhosted.org/packages/92/d8/71230eb25ede499401a9a39ddf66fab4e4dab149bf75ed2ecea51a662d9e/zopfli-0.2.3.zip
+Source0  : https://files.pythonhosted.org/packages/92/d8/71230eb25ede499401a9a39ddf66fab4e4dab149bf75ed2ecea51a662d9e/zopfli-0.2.3.zip
 Summary  : Zopfli module for python
 Group    : Development/Tools
 License  : Apache-2.0
@@ -57,10 +57,10 @@ python3 components for the pypi-zopfli package.
 
 
 %prep
-%setup -q -n zopfli-0.2.2
-cd %{_builddir}/zopfli-0.2.2
+%setup -q -n zopfli-0.2.3
+cd %{_builddir}/zopfli-0.2.3
 pushd ..
-cp -a zopfli-0.2.2 buildavx2
+cp -a zopfli-0.2.3 buildavx2
 popd
 
 %build
@@ -68,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685545403
+export SOURCE_DATE_EPOCH=1694448548
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
